@@ -4,34 +4,173 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="42d6a9e4-c28e-4752-a39a-6a53588fb18c" name="Changes" comment="" />
+    <list default="true" id="42d6a9e4-c28e-4752-a39a-6a53588fb18c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/springpattern/user/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/springpattern/BaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/springpattern/ChangingUserDataTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/springpattern/ReceivingUserOrdersTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/springpattern/UserAuthorizationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/springpattern/UserRegistrationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/springpattern/СreateOrderTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/springpattern/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/springpattern/AppTest.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2lLPA1bpqJRSEzqNM8lztcIeaXp" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "JUnit.ChangingUserDataTest.executor": "Run",
+    "JUnit.ChangingUserDataTest.testGetUserInfoWithAuth.executor": "Run",
+    "JUnit.ChangingUserDataTest.updateUserInfoWithAuth.executor": "Run",
+    "JUnit.ChangingUserDataTest.updateUserInfoWithExistingEmail.executor": "Run",
+    "JUnit.ChangingUserDataTest.updateUserInfoWithoutAuth.executor": "Run",
+    "JUnit.OrderTest.createOrderWithAuthAndValidIngredients.executor": "Run",
+    "JUnit.OrderTest.createOrderWithInvalidIngredientHash.executor": "Run",
+    "JUnit.OrderTest.createOrderWithoutAuth.executor": "Run",
+    "JUnit.OrderTest.createOrderWithoutIngredients.executor": "Run",
+    "JUnit.OrderTest.executor": "Run",
+    "JUnit.OrderTest.listr.executor": "Run",
+    "JUnit.ReceivingUserOrdersTest.executor": "Run",
+    "JUnit.ReceivingUserOrdersTest.getOrdersAuthorizedUser.executor": "Run",
+    "JUnit.ReceivingUserOrdersTest.testGetOrdersUnauthorizedUser.executor": "Run",
+    "JUnit.UserAuthorizationTest.UserAuthorizationWithoutMandatoryFields.executor": "Run",
+    "JUnit.UserAuthorizationTest.executor": "Run",
+    "JUnit.UserRegistrationTest.authorizationUser.executor": "Run",
+    "JUnit.UserRegistrationTest.createExistingUser.executor": "Run",
+    "JUnit.UserRegistrationTest.createUniqueUser.executor": "Run",
+    "JUnit.UserRegistrationTest.createUserWithoutRequiredFields.executor": "Run",
+    "JUnit.UserRegistrationTest.deleteUser.executor": "Run",
+    "JUnit.UserRegistrationTest.executor": "Run",
+    "JUnit.UserRegistrationTest.testCreateUser.executor": "Run",
+    "JUnit.СreateOrderTest.createOrderWithAuthAndValidIngredients.executor": "Run",
+    "JUnit.СreateOrderTest.createOrderWithInvalidIngredientHash.executor": "Run",
+    "JUnit.СreateOrderTest.createOrderWithoutAuth.executor": "Run",
+    "JUnit.СreateOrderTest.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "develop2",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "E:/java/Diplom/Diplom_2",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunManager" selected="JUnit.СreateOrderTest">
+    <configuration name="ChangingUserDataTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Diplom_2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.springpattern.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.springpattern" />
+      <option name="MAIN_CLASS_NAME" value="org.springpattern.ChangingUserDataTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReceivingUserOrdersTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Diplom_2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.springpattern.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.springpattern" />
+      <option name="MAIN_CLASS_NAME" value="org.springpattern.ReceivingUserOrdersTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserAuthorizationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Diplom_2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.springpattern.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.springpattern" />
+      <option name="MAIN_CLASS_NAME" value="org.springpattern.UserAuthorizationTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserRegistrationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Diplom_2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.springpattern.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.springpattern" />
+      <option name="MAIN_CLASS_NAME" value="org.springpattern.UserRegistrationTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="СreateOrderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Diplom_2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.springpattern.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.springpattern" />
+      <option name="MAIN_CLASS_NAME" value="org.springpattern.СreateOrderTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.СreateOrderTest" />
+        <item itemvalue="JUnit.UserRegistrationTest" />
+        <item itemvalue="JUnit.UserAuthorizationTest" />
+        <item itemvalue="JUnit.ReceivingUserOrdersTest" />
+        <item itemvalue="JUnit.ChangingUserDataTest" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -48,11 +187,43 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1724956242298</updated>
-      <workItem from="1724956243330" duration="1000" />
+      <workItem from="1724956243330" duration="369000" />
+      <workItem from="1724957954575" duration="217000" />
+      <workItem from="1725028359843" duration="29000" />
+      <workItem from="1725031608169" duration="774000" />
+      <workItem from="1725045134371" duration="211000" />
+      <workItem from="1725087937956" duration="1811000" />
+      <workItem from="1725175973439" duration="3654000" />
+      <workItem from="1725181479943" duration="595000" />
+      <workItem from="1725186489524" duration="595000" />
+      <workItem from="1725198110745" duration="4894000" />
+      <workItem from="1725206359448" duration="4907000" />
+      <workItem from="1725212810755" duration="1641000" />
+      <workItem from="1725254320034" duration="4414000" />
+      <workItem from="1725260268243" duration="8996000" />
+      <workItem from="1725277652315" duration="784000" />
+      <workItem from="1725292275541" duration="595000" />
+      <workItem from="1725298246635" duration="3750000" />
+      <workItem from="1725305509678" duration="3787000" />
+      <workItem from="1725348406373" duration="6638000" />
+      <workItem from="1725356177857" duration="632000" />
+      <workItem from="1725368224849" duration="997000" />
+      <workItem from="1725371466085" duration="2278000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
