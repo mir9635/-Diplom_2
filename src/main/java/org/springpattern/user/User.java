@@ -1,44 +1,47 @@
 package org.springpattern.user;
 
 public class User {
-    private String userEmail;
-    private String userPassword;
-    private String userName;
+    private String email;
+    private String password;
+    private String name;
     private String accessToken;
 
-    public User(String userEmail, String userPassword) {
-        this.userEmail = userEmail;
-        this.userPassword = userPassword;
+    public User(String email, String name) {
+        this.email = email;
+        this.name = name;
     }
 
-    public User(String userEmail, String userPassword, String userName) {
-        this.userEmail = userEmail;
-        this.userPassword = userPassword;
-        this.userName = userName;
+    public User() {
     }
 
-    public String getUserEmail() {
-        return userEmail;
+    public User(String email, String password, String name) {
+        this.email = email;
+        this.password = password;
+        this.name = name;
     }
 
-    public void setUserEmail(String userEmail) {
-        this.userEmail = userEmail;
+    public String getEmail() {
+        return email;
     }
 
-    public String getUserPassword() {
-        return userPassword;
+    public void setEmail(String email) {
+        this.email = email;
     }
 
-    public void setUserPassword(String userPassword) {
-        this.userPassword = userPassword;
+    public String getPassword() {
+        return password;
     }
 
-    public String getUserName() {
-        return userName;
+    public void setPassword(String password) {
+        this.password = password;
     }
 
-    public void setUserName(String userName) {
-        this.userName = userName;
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
     }
 
     public String getAccessToken() {
